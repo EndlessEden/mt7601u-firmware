@@ -7,6 +7,7 @@ url="https://github.com/kuba-moo/$_gitname"
 license=('Unknown')
 options=(!strip)
 source=("DPO_MT7601U_LinuxSTA_3.0.0.4_20130913.tar.bz2::https://github.com/kingtiger01/mt7601u-firmware/blob/master/DPO_MT7601U_LinuxSTA_3.0.0.4_20130913.tar.bz2?raw=true")
+md5sums=("5f440dccc8bc952745a191994fc34699")
 
 package() {
    cd "$srcdir/$_gitname"
