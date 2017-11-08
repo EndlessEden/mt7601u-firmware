@@ -6,7 +6,7 @@ arch=('any')
 url="https://github.com/kuba-moo/$_gitname"
 license=('Unknown')
 options=(!strip)
-source=("DPO_MT7601U_LinuxSTA_3.0.0.4_20130913.tar.bz2::DPO_MT7601U_LinuxSTA_3.0.0.4_20130913.tar.bz2')
+source=("DPO_MT7601U_LinuxSTA_3.0.0.4_20130913.tar.bz2::https://github.com/kingtiger01/mt7601u-firmware/blob/master/DPO_MT7601U_LinuxSTA_3.0.0.4_20130913.tar.bz2?raw=true')
 
 package() {
    cd "$srcdir/$_gitname"
